@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "ISCanteen Go - Đặt Món Căn Tin Thông Minh",
+  "short_name": "ISCanteenGo",
+  "description": "Ứng dụng đặt món & chọn khung giờ nhận thông minh tại Căn tin trường học cho môn Thương mại Di động (M-Commerce)",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf9f6",
+  "theme_color": "#1c1917",
+  "categories": ["food", "lifestyle", "education"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

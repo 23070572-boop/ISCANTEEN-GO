@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)"/>
+  <!-- Bowl / Utensils iconography in center -->
+  <g fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- Plate / Bowl -->
+    <path d="M116 280 A140 140 0 0 0 396 280 Z" fill="#ffffff" fill-opacity="0.15"/>
+    <!-- Fork -->
+    <path d="M190 140 v80 M165 140 v50 c0 15 25 15 25 30 M215 140 v50 c0 15 -25 15 -25 30 M190 220 v140"/>
+    <!-- Spoon -->
+    <path d="M322 140 c-22 0 -32 20 -32 45 c0 25 10 45 32 45 c22 0 32 -20 32 -45 c0 -25 -10 -45 -32 -45 Z M322 230 v130"/>
+    <!-- Speed lines / clock ticks -->
+    <path d="M130 380 h40 M342 380 h40" stroke-width="20"/>
+  </g>
+</svg>
